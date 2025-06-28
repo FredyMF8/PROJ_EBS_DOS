@@ -29,7 +29,7 @@ This repository contains scripts to automate **Density Functional Theory (DFT)**
 1. Create a folder named `BANDS/` and place the necessary input files.
 2. Run the band structure script:
    ```bash
-   ./BANDS.sh
+   bash BANDS.sh
 After running projwfc.x, open the file NbMoCO2proj.out.projwfc_up to inspect the projected orbital contributions.
 
 For example, for Nb you may find:
@@ -45,11 +45,11 @@ Do the same for all atoms to identify the orbital indices. Example:
 These indices are used later for orbital-projected band structure plotting.
 
 ### 2️⃣ Density of States: `DOS.sh` 
-Create a separate folder named DOS/ with input files.
+Create a separate folder named `DOS/` with input files.
 
 Run the DOS script:
-
-bash DOS.sh
+   ```bash
+   bash DOS.sh
 
 
 ### 3️⃣ Plotting
