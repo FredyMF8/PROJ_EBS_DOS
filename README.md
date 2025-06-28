@@ -4,7 +4,7 @@ This repository contains scripts to automate **Density Functional Theory (DFT)**
 
 ---
 
-## 📦 Contents
+## Contents
 
 - `BANDS.sh` – Automates the band structure calculation.
 - `DOS.sh` – Automates the total and projected DOS calculation.
@@ -12,28 +12,13 @@ This repository contains scripts to automate **Density Functional Theory (DFT)**
 
 ---
 
-## ✅ Requirements
-
-- Quantum ESPRESSO ≥ 6.x  
-- Bash shell  
-- Python 3 with:
-  - `numpy`
-  - `matplotlib`
-
----
-
-Here is the full content in Markdown format, ready for you to copy and paste into your `README.md`:
-
-````markdown
-## ⚙️ Step-by-Step Instructions
-
-### 1️⃣ Band Structure: `BANDS.sh`
+### Band Structure: `BANDS.sh`
 
 1. Create a folder named `BANDS/` and place the necessary input files for the band structure calculation.
 2. Run the band structure script:
    ```bash
    bash BANDS.sh
-````
+```
 
 3. After running `projwfc.x`, open the file `NbMoCO2proj.out.projwfc_up` to inspect the projected orbital contributions.
 
@@ -55,7 +40,7 @@ Here is the full content in Markdown format, ready for you to copy and paste int
 
    These indices are used later for orbital-projected band structure plotting.
 
-### 2️⃣ Density of States: `DOS.sh`
+### Density of States: `DOS.sh`
 
 1. Create a separate folder named `DOS/` and place the necessary input files for the DOS calculation.
 2. Run the DOS script:
@@ -72,7 +57,7 @@ Here is the full content in Markdown format, ready for you to copy and paste int
    sumpdos.x *\(O\)* > atom_O.dat
    ```
 
-### 3️⃣ Plotting
+### Plotting
 
 1. Gather the following files into a single folder:
 
@@ -88,9 +73,4 @@ Here is the full content in Markdown format, ready for you to copy and paste int
    ```bash
    python3 plot_bands_dos.py
    ```
-
-```
-
-This is the clean and formatted Markdown text for your `README.md` file.
-```
 
