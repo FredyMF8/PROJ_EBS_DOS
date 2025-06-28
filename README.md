@@ -1,4 +1,5 @@
 Quantum ESPRESSO Workflow for Band Structure and DOS
+
 This repository contains scripts to automate Density Functional Theory (DFT) calculations using Quantum ESPRESSO, specifically focusing on electronic band structure and density of states (DOS) analysis.
 
 Contents
